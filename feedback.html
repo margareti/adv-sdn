@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="mobile-menu">
+		<span class="mobile-menu__close">Close menu</span>
+		<ul class="mobile-menu__list">
+			<li class="mobile-menu__item"><a href="#">Главная</a></li>
+			<li class="mobile-menu__item"><a href="#">Фото и видео</a></li>
+			<li class="mobile-menu__item"><a>Форма отзыва</a></li>
+			<li class="mobile-menu__item"><a href="#">HTML Academy</a></li>
+		</ul>
+	</div>
+	<header class="main-header">
+		<nav class="main-nav">
+			<img src="#" alt="Logo" >
+			<span class="mobile-menu__open">Open menu</span>
+		</nav>
+		<div class="banner">
+			<img src="#" alt="Hero Element">
+			<h1 class="banner__headline">Sedona</h1>
+		</div>
+	</header>
+	<section class="advantage-block--arrows">
+		<h2 class="advantage-block__headline">Оставьте свой отзыв</h2> 
+		<p class="advantage-block__copy">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+	</section>
+	<section class="feedback-block">
+		<h2 class="feedback-block__headline">Представьтесь, пожалуйста:</h2>
+		<fieldset class="feedback-block__text--longer">
+			<label for="firstname">Имя:</label>
+			<input type="text" id="firstname" placeholder="Петр">
+		</fieldset>
+		<fieldset class="feedback-block__text">
+			<label for="lastname">Фамилия:</label>
+			<input type="text" id="lastname" placeholder="Иванов">
+		</fieldset>
+		<fieldset class="feedback-block__text">
+			<label for="middlename">Отчество:</label>
+			<input type="text" id="middlename" placeholder="Александрович">
+		</fieldset>
+		<h2 class="feedback-block__headline">Контактная информация:</h2>
+		<h3 class="feedback-block__subheadline">Контактный телефон:</h3>
+		<div class="input-w-icon">
+			<input class="input-w-icon__input" placeholder="Введите телефон" type="tel" name="tel" required>
+			<span class="input-w-icon__icon  input-w-icon--tel"></span>
+			<p class="input-w-icon__message">Ошибка, перепроверьте номер</p>
+		</div>
+		<h3 class="feedback-block__subheadline">Электронная почта:</h3>
+		<div class="input-w-icon">
+			<input class="input-w-icon__input" placeholder="Введите e-mail" type="email" name="tel" required>
+			<span class="input-w-icon__icon  input-w-icon--email"></span>
+			<p class="input-w-icon__message">Ошибка, перепроверьте email</p>
+		</div>
+		<h3 class="feedback-block__subheadline">Электронная почта:</h3>
+		<h2 class="feedback-block__headline">Ваше общее впечатление:</h2>
+		<fieldset class="feedback-block__radio">
+			<input type="radio" name="impression" id="impr1">
+			<label for="impr1">Скорее положительное</label>
+		</fieldset>
+		<fieldset class="feedback-block__radio">
+			<input type="radio" name="impression" id="impr2">
+			<label for="impr2">Скорее отрицательное</label>
+		</fieldset>
+		<fieldset class="feedback-block__radio">
+			<input type="radio" name="impression" id="impr3">
+			<label for="impr3">Затрудняюсь ответить</label>
+		</fieldset>
+		<h2 class="feedback-block__headline">Посещенные достопримечательности:</h2>
+		<fieldset class="feedback-block__checkbox">
+			<input type="checkbox" name="sights-cbx" id="sights1">
+			<label for="sights1">Мост дьявола</label>
+		</fieldset>
+		<fieldset class="feedback-block__checkbox">
+			<input type="checkbox" name="sights-cbx" id="sights2">
+			<label for="sights2">слайд-парк</label>
+		</fieldset>
+		<fieldset class="feedback-block__checkbox">
+			<input type="checkbox" name="sights-cbx" id="sights3">
+			<label for="sights3">Гора-колокол</label>
+		</fieldset>
+		<fieldset class="feedback-block__checkbox">
+			<input type="checkbox" name="sights-cbx" id="sights4">
+			<label for="sights4">Красные скалы</label>
+		</fieldset>
+
+		<h2 class="feedback-block__headline">Опишите свои эмоции:</h2>
+		<textarea class="feedback-block__textarea" placeholder="Опишите подробно все свои восторги"></textarea>
+	</section>
+	<footer class="main-footer">
+		<a class="main-footer__link" href="#">#Visitsedona</a>
+		<ul class="social-icons">
+			<li class="social-icons__icon  social-icons__icon--tw">Twitter</li>
+			<li class="social-icons__icon  social-icons__icon--fb">Facebook</li>
+			<li class="social-icons__icon  social-icons__icon--yt">Youtube</li>
+		</ul>
+		<div>
+			<span class="main-footer__dev"><a href="#">Разработано</a></span>
+			<img src="#" alt="Developed by HTMLAcademy">
+		</div>
+	</footer>
+</body>
+</html>
