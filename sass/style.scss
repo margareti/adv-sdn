@@ -1,30 +1,23 @@
-@import 'mobile-menu';
+@import 'normalize';
 
-@import 'main-footer';
+@import 'variables';
+@import 'mixins';
 
-@import 'social-icons';
+@import 'global/fonts';
 
-@import 'main-header';
-
-@import 'main-nav';
-
-@import 'banner';
-
-@import 'advantage-block-wrapper';
-
-@import 'advantage-block';
-
-@import 'features-block';
-
-@import 'interested-block';
-
-@import 'btn-wrapper';
-
-@import 'map-block';
-
-@import 'feedback-block';
-
-@import 'input-w-icon';
-
-@import 'photo-item';
+@import 'blocks/mobile-menu';
+@import 'blocks/main-footer';
+@import 'blocks/social-icons';
+@import 'blocks/main-header';
+@import 'blocks/main-nav';
+@import 'blocks/banner';
+@import 'blocks/advantage-block-wrapper';
+@import 'blocks/advantage-block';
+@import 'blocks/features-block';
+@import 'blocks/interested-block';
+@import 'blocks/btn-wrapper';
+@import 'blocks/map-block';
+@import 'blocks/feedback-block';
+@import 'blocks/input-w-icon';
+@import 'blocks/photo-item';
 
