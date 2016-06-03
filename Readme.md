@@ -1,9 +1,5 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Анна Павлюкова](https://up.htmlacademy.ru/adaptive/7/user/164074).
-* Наставник: [Маргарита Игнатьева](https://htmlacademy.ru/profile/id41571).
-
----
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitignore`, `.travis.yml`, `package.json`._
