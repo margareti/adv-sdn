@@ -1,0 +1,21 @@
+.main-footer {
+	text-align: center;
+	padding: 40px 20px;
+}
+.main-footer__link {
+	font-family: $font-bold;
+	text-decoration: none;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: inherit;
+}
+.main-footer__dev img {
+	vertical-align: middle;
+	display: inline-block;
+}
+.main-footer__dev-by {
+	text-transform: uppercase;
+	color: inherit;
+	font-size: 14px;
+	text-decoration: none;
+}
