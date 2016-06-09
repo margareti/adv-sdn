@@ -10,3 +10,18 @@
 		src: $src;
 	}
 }
+
+@mixin container($size) {
+	max-width: $size;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+
+}
+@mixin clearfix {
+	&:after {
+		clear: both;
+		display:table;
+		content: "";
+	}
+}

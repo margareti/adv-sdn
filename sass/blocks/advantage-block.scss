@@ -1,0 +1,41 @@
+.advantage-block {
+	width: 33.3%;
+	float: left;
+	padding-top: 50px;
+	padding-bottom: 55px;
+	text-align: center;
+
+	&--image {
+		width: 66.6%;
+	}
+	&--arrows {
+		padding-top: 40px;
+		padding-bottom: 50px;
+		text-align: center;
+		width: 100%;
+	}
+	h2, p {
+		margin: 0 auto;
+		text-align: center;
+		text-transform: uppercase;
+		max-width: 268px;
+	}
+}
+.advantage-block--arrows .advantage-block__headline {
+	margin-bottom: 30px;
+}
+.advantage-block--arrows .advantage-block__copy {
+	max-width: 100%;
+}
+
+.advantage-block__headline {
+	margin: 0;
+	font-family: PT Sans Bold, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+.advantage-block__copy {
+	color: $light-black;
+	text-transform: uppercase;
+	font-size: 14px;
+}

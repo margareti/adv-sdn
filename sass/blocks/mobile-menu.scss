@@ -1,5 +1,6 @@
 .mobile-menu {
 	position: relative;
+	@include container($desktop);
 }
 
 .mobile-menu__list {
@@ -48,4 +49,14 @@
 	background-image: url(../img/icon-cross.svg);
 	right: 15px;
 	top: 15px;
+}
+@media (max-width: $tablet) {
+	.main-nav {
+		@include container($tablet);
+	}
+}
+@media (max-width: $mobile) {
+	.main-nav {
+		@include container($mobile);
+	}
 }
