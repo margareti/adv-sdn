@@ -1,0 +1,23 @@
+@import 'normalize';
+
+@import 'variables';
+@import 'mixins';
+
+@import 'global/fonts';
+
+@import 'blocks/mobile-menu';
+@import 'blocks/main-footer';
+@import 'blocks/social-icons';
+@import 'blocks/main-header';
+@import 'blocks/main-nav';
+@import 'blocks/banner';
+@import 'blocks/advantage-block-wrapper';
+@import 'blocks/advantage-block';
+@import 'blocks/features-block';
+@import 'blocks/interested-block';
+@import 'blocks/btn-wrapper';
+@import 'blocks/map-block';
+@import 'blocks/feedback-block';
+@import 'blocks/input-w-icon';
+@import 'blocks/photo-item';
+@import 'blocks/container';
