@@ -6,91 +6,93 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		<div class="mobile-menu">
-			<span class="mobile-menu__close"></span>
-			<ul class="mobile-menu__list">
-				<li class="mobile-menu__item"><a>Главная</a></li>
-				<li class="mobile-menu__item"><a href="#">Фото и видео</a></li>
-				<li class="mobile-menu__item"><a href="#">Форма отзыва</a></li>
-				<li class="mobile-menu__item"><a href="#">HTML Academy</a></li>
+	<header class="main-header">
+		<nav class="main-nav">
+			<ul class="main-menu">
+				<span class="main-menu__close"></span>
+				<li class="main-menu__item"><a>Главная</a></li>
+				<li class="main-menu__item"><a href="photo.html">Фото и видео</a></li>
+				<li class="main-menu__item  main-menu__item--logo">
+					<img src="img/logo-sedona-mobile.svg" width="102" height="85" alt="Logo" >
+					<span class="main-menu__open"></span>
+				</li>
+				<li class="main-menu__item"><a href="form.html">Форма отзыва</a></li>
+				<li class="main-menu__item"><a href="#">HTML Academy</a></li>
 			</ul>
+		</nav>
+		<div class="banner">
+			<img src="img/text-sedona-index.svg" width="280" height="213" alt="Hero Element">
 		</div>
-		<header class="main-header">
-			<nav class="main-nav">
-				<img src="img/logo-sedona-mobile.svg" width="102" height="85" alt="Logo" >
-				<span class="mobile-menu__open"></span>
-			</nav>
-			<div class="banner">
-				<img src="img/text-sedona-index.svg" width="280" height="213" alt="Hero Element">
-			</div>
-		</header>
-		<div class="advantage-block-wrapper">
-			<section class="advantage-block--arrows">
-				<h2 class="advantage-block__headline">СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</h2> 
-				<p class="advantage-block__copy">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
-			</section>
-			<section class="advantage-block--blue">
-				<h2 class="advantage-block__headline">Настоящий городок</h2> 
-				<div class="advantage-block__num">№1</div>
-				<p class="advantage-block__copy">СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
-			</section>
-			<img src="img/photo-city@1x.jpg" width="320" height="260" alt="Sedona" class="advatage-block__img">
-			<section class="features-block">
-				<h2 class="features-block_headline">Жилье</h2> 
-				<p class="features-block__copy">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-			</section>
-			<section class="features-block">
-				<h2 class="features-block_headline">Суверины</h2> 
-				<p class="features-block__copy">Не только китайского, но и местного производства!</p>
-			</section>
-			<section class="features-block">
-				<h2 class="features-block_headline">Еда</h2> 
-				<p class="features-block__copy">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
-			</section>
-			<section class="advantage-block--blue">
-				<h2 class="advantage-block__headline">Там есть мост дьявола</h2> 
-				<div class="advantage-block__num">№2</div>
-				<p class="advantage-block__copy">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-			</section>
-			<img src="img/photo-bridge@1x.jpg" alt="Sedona" width="320" height="260" class="advatage-block__img">
-			<section class="advantage-block--grey">
-				<h2 class="advantage-block__headline">Небольшая площадь</h2> 
-				<div class="advantage-block__num">№3</div>
-				<p class="advantage-block__copy">Достопримечательности находятся очень близко</p>
-			</section>
-			<section class="advantage-block--grey">
-				<h2 class="advantage-block__headline">Красивая дорога</h2> 
-				<div class="advantage-block__num">№4</div>
-				<p class="advantage-block__copy">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
-			</section>
-			<section class="advantage-block--grey">
-				<h2 class="advantage-block__headline">Мало туристов</h2> 
-				<div class="advantage-block__num">№5</div>
-				<p class="advantage-block__copy">Большинство едет в гранд каньон и толпится там</p>
-			</section>
-		</div>
-		<section class="interested-block">
-			<h2 class="interested-block__headline">Заинтересовались?</h2>
-			<p class="interested-block__copy">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
-			<div class="btn-wrapper">
-				<a class="btn-wrapper__btn">Найти гостиницу</a>
-			</div>
+	</header>
+	<div class="advantage-block-wrapper">
+		<section class="advantage-block  advantage-block--arrows">
+			<h2 class="advantage-block__headline">СЕДОНА — небольшой городок в АРИЗОНЕ,<br>заслуживающий большего!</h2> 
+			<p class="advantage-block__copy">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
 		</section>
-		<div class="map-block">
-		</div>
-		<footer class="main-footer">
-			<a class="main-footer__link" href="#">#Visitsedona</a>
-			<ul class="social-icons">
-				<li class="social-icons__icon  social-icons__icon--tw">Twitter</li>
-				<li class="social-icons__icon  social-icons__icon--fb">Facebook</li>
-				<li class="social-icons__icon  social-icons__icon--yt">Youtube</li>
-			</ul>
-			<div class="main-footer__dev">
-				<a class="main-footer__dev-by" href="#">Разработано</a>
-				<img src="img/htmlacademy.svg" width="60" height="60" alt="Developed by HTMLAcademy">
-			</div>
-		</footer>
+		<section class="advantage-block  advantage-block--blue">
+			<h2 class="advantage-block__headline">Настоящий<br>городок</h2> 
+			<div class="advantage-block__num">№1</div>
+			<p class="advantage-block__copy">СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ,<br>ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+		</section>
+		<section class="advantage-block  advantage-block--image">
+			<img src="img/photo-city@1x.jpg" width="320" height="260" alt="Sedona" class="advatage-block__img">
+		</section>
+		<section class="advantage-block  features-block">
+			<h2 class="features-block_headline">Жилье</h2> 
+			<p class="features-block__copy">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+		</section>
+		<section class="advantage-block  features-block">
+			<h2 class="features-block_headline">Суверины</h2> 
+			<p class="features-block__copy">Не только китайского, но и местного производства!</p>
+		</section>
+		<section class="advantage-block  features-block">
+			<h2 class="features-block_headline">Еда</h2> 
+			<p class="features-block__copy">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+		</section>
+		<section class="advantage-block  advantage-block--blue">
+			<h2 class="advantage-block__headline">Там есть<br>мост дьявола</h2> 
+			<div class="advantage-block__num">№2</div>
+			<p class="advantage-block__copy">Да, по нему можно пройти!<br>Если конечно вы осмелитесь</p>
+		</section>
+		<section class="advantage-block  advantage-block--image">
+			<img src="img/photo-bridge@1x.jpg" alt="Sedona" width="320" height="260" class="advatage-block__img">
+		</section>
+		<section class="advantage-block  advantage-block--grey">
+			<h2 class="advantage-block__headline">Небольшая<br>площадь</h2> 
+			<div class="advantage-block__num">№3</div>
+			<p class="advantage-block__copy">Все достопримеча-<br>тельности находятся очень близко</p>
+		</section>
+		<section class="advantage-block  advantage-block--grey">
+			<h2 class="advantage-block__headline">Красивая<br>дорога</h2> 
+			<div class="advantage-block__num">№4</div>
+			<p class="advantage-block__copy">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА<br>совсем НЕ СКУЧНО!</p>
+		</section>
+		<section class="advantage-block  advantage-block--grey">
+			<h2 class="advantage-block__headline">Мало<br>туристов</h2> 
+			<div class="advantage-block__num">№5</div>
+			<p class="advantage-block__copy">Большинство едет в гранд каньон и<br>толпится там</p>
+		</section>
 	</div>
+	<section class="interested-block">
+		<h2 class="interested-block__headline">Заинтересовались?</h2>
+		<p class="interested-block__copy">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
+		<div class="btn-wrapper">
+			<a class="btn-wrapper__btn">Найти гостиницу</a>
+		</div>
+	</section>
+	<div class="map-block">
+	</div>
+	<footer class="main-footer">
+		<a class="main-footer__link" href="#">#Visitsedona</a>
+		<ul class="social-icons">
+			<li class="social-icons__icon  social-icons__icon--tw">Twitter</li>
+			<li class="social-icons__icon  social-icons__icon--fb">Facebook</li>
+			<li class="social-icons__icon  social-icons__icon--yt">Youtube</li>
+		</ul>
+		<div class="main-footer__dev">
+			<a class="main-footer__dev-by" href="#">Разработано</a>
+			<img src="img/htmlacademy.svg" width="60" height="60" alt="Developed by HTMLAcademy">
+		</div>
+	</footer>
 </body>
 </html>

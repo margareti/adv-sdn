@@ -1,0 +1,11 @@
+.advantage-block-wrapper {
+	@include container($desktop);
+	@include clearfix;
+}
+
+@media (max-width: $tablet) {
+	@include container($tablet);
+}
+@media (max-width: $mobile) {
+	@include container($mobile);
+}
